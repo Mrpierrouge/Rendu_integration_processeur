@@ -1,0 +1,11 @@
+@mixin flex-base($justify : center){
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin link-base(){
+    text-decoration: none;
+    color: $clr-light;
+    font-size: $font-text-size;
+}

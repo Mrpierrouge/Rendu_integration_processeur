@@ -1,0 +1,29 @@
+.footer{
+    @include flex-base(space-between);
+    background-color: $clr-primary;
+    color: $clr-light;
+    padding-inline: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    &-img{
+        width: 20vw;
+    }
+    &-card{
+        @include flex-base();
+        flex-direction: column;
+        gap: 10px;
+
+        .footer-titre{
+            font-size: 27px;
+        }
+        .footer-links{
+            @include flex-base();
+            flex-direction: column;
+            gap:8px;
+
+            a{
+                @include link-base();
+            }
+        }
+    }
+}
