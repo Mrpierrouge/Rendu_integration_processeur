@@ -111,6 +111,7 @@ p {
   color: #606060;
   flex-direction: column;
   gap: 30px;
+  height: 80%;
 }
 .menus-commander h3 {
   color: #B2D234;
