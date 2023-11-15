@@ -9,7 +9,7 @@
     &-content{
         @include flex-base();
         flex-direction: column;
-        padding-left: 10vw;
+        transform: translateX(10vw);
 
         &-title{
             color: $clr-primary;
@@ -24,6 +24,6 @@
     }
     img{
         object-fit: cover;
-        transform: translateX(10vw); 
+        transform: translateX(10vw);
     }
 }
