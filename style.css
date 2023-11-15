@@ -57,7 +57,7 @@ p {
   padding-top: 80px;
   padding-top: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr 3fr 1fr 3fr 2fr;
+  grid-template-columns: 1fr 1fr 3fr 1fr 3fr 1fr;
 }
 .menus-header {
   grid-column: 3/6;
@@ -66,6 +66,7 @@ p {
   align-items: center;
   flex-direction: column;
   gap: 20px;
+  color: #606060;
 }
 .menus-header h3 {
   color: #B2D234;
@@ -78,6 +79,7 @@ p {
 }
 .menus-listeMenus-menu {
   width: 100%;
+  color: #606060;
 }
 .menus-listeMenus-menu-header {
   display: flex;
@@ -85,6 +87,22 @@ p {
   align-items: center;
   color: #B2D234;
   font-size: 24px;
+}
+.menus-commander {
+  grid-column: 5/6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #606060;
+  flex-direction: column;
+  gap: 30px;
+}
+.menus-commander h3 {
+  color: #B2D234;
+  rotate: -9deg;
+}
+.menus-commander .color-blue {
+  color: #60A0D8;
 }
 
 .menu-bestSeller {

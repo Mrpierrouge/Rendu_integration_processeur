@@ -4,13 +4,14 @@
     padding-top: 80px;
     padding-top: 80px;
     display: grid;
-    grid-template-columns: 1fr 1fr 3fr 1fr 3fr 2fr;
+    grid-template-columns: 1fr 1fr 3fr 1fr 3fr 1fr;
 
     &-header{
         grid-column: 3/6;
         @include flex-base();
         flex-direction: column;
         gap: 20px;
+        color: $clr-secondary;
 
         h3{
             color: $clr-primary;
@@ -22,14 +23,30 @@
         display:flex;
         flex-direction: column;
         gap: 20px;
+
         &-menu{
             width: 100%;
-
+            color: $clr-secondary;
             &-header{
                 @include flex-base(space-between);
                 color: $clr-primary;
                 font-size: 24px;
             }
+        }
+    }
+
+    &-commander{
+        grid-column: 5/6;
+        @include flex-base(space-around);
+        color: $clr-secondary;
+        flex-direction: column;
+        gap: 30px;
+        h3{
+            color: $clr-primary;
+            rotate: -9deg;
+        }
+        .color-blue{
+            color: #60A0D8;
         }
     }
 }
