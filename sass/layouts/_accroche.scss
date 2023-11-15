@@ -11,8 +11,8 @@
         grid-column: 2/3;
         align-self: center;
         height: 75%;
-        background-color: $clr-primary;
-        opacity: 85%;
+        background-color: rgba($clr-primary, 0.85);
+
         
         @include flex-base();
         flex-direction: column;
@@ -20,13 +20,8 @@
         gap: 15px;
         text-align: center;
         p{
-            opacity: 100%;
             color: $clr-secondary;
         }
-        a{
-            opacity: 100%;
-        }
-        
     }
    
 }
